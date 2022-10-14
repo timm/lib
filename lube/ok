@@ -1,0 +1,5 @@
+#!/usr/bin/env lua
+# vim : filetype=sh :
+f="$1"
+shift
+LUA_PATH="?;?.lua;.../?.lua;LUA_PATH" lua $1.lua $*
